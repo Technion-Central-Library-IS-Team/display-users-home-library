@@ -1,8 +1,8 @@
 {
    "id": "display-users-home-library",
-   "title": "Display users home library",
-   "description": "Displaying the users home library",
-   "subtitle": "default",
+   "title": "User Statistical Categories",
+   "description": "Shows configurable list of statistical categories in screens such as borrowing requests and user details",
+   "subtitle": "Display user statistical categories",
    "author": "Technion Library IS Team",
    "pages": {
       "help": "https://github.com/Technion-Central-Library-IS-Team/display-users-home-library",
