@@ -2,7 +2,7 @@
    "id": "display-users-home-library",
    "title": "User Statistical Categories",
    "description": "Display users’ statistical category types, for users in Alma screens such as Borrowing Requests and Find and Manage Users screen. Supports configuring which statistical category types to display.",
-   "subtitle": "default",
+   "subtitle": "Display users’ statistical category types, for users in Alma.",
    "author": "Technion Library IS Team",
    "pages": {
       "help": "https://github.com/Technion-Central-Library-IS-Team/display-users-home-library",
