@@ -66,7 +66,11 @@ export class MainComponent implements OnInit, OnDestroy {
             let categories = {};
             result.user_statistic.forEach(user_statistic => {
               if (typeof user_statistic.category_type !== 'undefined' && this.settings.categories.some(c=>c.code===user_statistic.category_type.value)) {
-                categories[user_statistic.category_type.value] = user_statistic.statistic_category.desc;
+                if (categories[user_statistic.category_type.value]) {
+                  categories[user_statistic.category_type.value] += ", " + user_statistic.statistic_category.desc;
+                } else {
+                  categories[user_statistic.category_type.value] = user_statistic.statistic_category.desc;
+                }
               }
             });
             
